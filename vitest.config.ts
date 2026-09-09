@@ -17,7 +17,7 @@ export default defineConfig({
     coverage: {
       provider: "v8",
       include: ["src/**/*.{ts,tsx}"],
-      // Layout/metadata are framework wiring; their integration is exercised by Playwright.
+      // Framework wiring is excluded; Playwright exercises the layout's integration.
       exclude: [
         "src/**/*.test.{ts,tsx}",
         "src/**/*.d.ts",

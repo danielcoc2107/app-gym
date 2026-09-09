@@ -10,7 +10,7 @@ T00: base Next.js App Router + TypeScript + Tailwind CSS, bienvenida responsive,
 página «Cómo funciona», página 404 y pruebas automatizadas. El registro, Supabase,
 inventario, planes y asistente corresponden a las siguientes tareas y aún no están
 implementados. Las pantallas informativas no simulan datos guardados ni cuentas reales.
-Validación local de T00 superada; PR y preview de Vercel pendientes.
+Validación local de T00 superada; PR publicados y preview de Vercel pendiente.
 Ver [resultados y pasos de revisión](docs/entregas/t00.md).
 
 ## Desarrollo local
@@ -48,7 +48,8 @@ npm run test:e2e
 
 `test` ejecuta Vitest con Testing Library y cobertura V8. Descubre archivos
 `src/**/*.test.{ts,tsx}` y exige el 100% de la cobertura medible de la base T00;
-layout y cableado de metadatos se validan mediante E2E, no se incluyen en ese porcentaje.
+Layout y metadatos declarativos no se incluyen en ese porcentaje; los E2E verifican
+la integración del layout, pero no contienen aserciones específicas de metadatos.
 `test:watch` es opcional durante desarrollo. `typecheck` comprueba los tipos por separado.
 Las pruebas de navegador inician su propio servidor de producción en
 `http://127.0.0.1:3100`; requieren una compilación previa y ese puerto libre.
