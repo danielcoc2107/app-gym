@@ -1,7 +1,7 @@
 # Arquitectura y entrega
 
-Parte de la [especificación](especificacion.md). Decisiones propuestas para las
-tareas de implementación; este documento no aplica configuración local ni remota.
+Parte de la [especificación](especificacion.md). La base web y de pruebas T00 ya está
+aplicada localmente; las demás integraciones siguen propuestas, sin configuración remota.
 
 ## 1. Stack elegido
 
