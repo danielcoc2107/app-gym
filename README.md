@@ -10,7 +10,9 @@ T00: base Next.js App Router + TypeScript + Tailwind CSS, bienvenida responsive,
 página «Cómo funciona», página 404 y pruebas automatizadas. El registro, Supabase,
 inventario, planes y asistente corresponden a las siguientes tareas y aún no están
 implementados. Las pantallas informativas no simulan datos guardados ni cuentas reales.
-Validación local de T00 superada; PR publicados y preview de Vercel pendiente.
+Validación local y CI de T00 superadas; PR publicados y preview de Vercel creado.
+La revisión visual remota sigue pendiente: se recibe 403 tanto en el navegador
+integrado como en la prueba de acceso comunicada por el usuario.
 Ver [resultados y pasos de revisión](docs/entregas/t00.md).
 
 ## Desarrollo local
@@ -81,9 +83,17 @@ Las pruebas unitarias viven junto al componente que verifican.
 
 ## Vercel y entornos posteriores
 
-El proyecto usa la compilación estándar de Next.js y está preparado para importarse
-en Vercel con Node.js 24, instalación `npm ci` y compilación `npm run build`.
-No se ha creado ni conectado un proyecto remoto desde esta implementación.
+El proyecto `app-gym` está conectado al repositorio original en Vercel, con Next.js,
+Node.js 24, instalación `npm ci` y compilación `npm run build`.
+El [preview de T00](https://app-gym-git-codex-t00-base-ci-coc12.vercel.app/)
+corresponde a `codex/t00-base-ci` y requiere acceso con la cuenta de Vercel autorizada.
+Su compilación terminó en estado `Ready`; ese estado no sustituye la prueba visual.
+No se desactivó la protección ni se crearon enlaces o secretos de bypass.
+
+Vercel etiquetó el primer despliegue como `Production` pese a solicitarlo desde
+«Create Preview Deployment». Se creó después un despliegue separado de tipo `Preview`.
+Esto no implica una entrega funcional completa ni un merge: `main` sigue intacta y
+permanece como rama de producción configurada. Ver el [registro de entrega](docs/entregas/t00.md).
 
 La base T00 no necesita variables. Para T01, documentar y configurar con autorización
 `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` por entorno.
