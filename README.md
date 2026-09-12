@@ -10,9 +10,10 @@ T00: base Next.js App Router + TypeScript + Tailwind CSS, bienvenida responsive,
 página «Cómo funciona», página 404 y pruebas automatizadas. El registro, Supabase,
 inventario, planes y asistente corresponden a las siguientes tareas y aún no están
 implementados. Las pantallas informativas no simulan datos guardados ni cuentas reales.
-Validación local y CI de T00 superadas; PR publicados y preview de Vercel creado.
-La revisión visual remota sigue pendiente: se recibe 403 tanto en el navegador
-integrado como en la prueba de acceso comunicada por el usuario.
+Validación local, CI y revisión del preview en escritorio/móvil superadas.
+T00 está preparada para revisión del usuario; todavía no se ha fusionado a `main`.
+El acceso funciona mediante datos móviles. El 403 observado en la red Wi-Fi original
+no se ha corregido ni atribuido a una causa concreta; no se cambiaron protecciones.
 Ver [resultados y pasos de revisión](docs/entregas/t00.md).
 
 ## Desarrollo local
@@ -87,7 +88,8 @@ El proyecto `app-gym` está conectado al repositorio original en Vercel, con Nex
 Node.js 24, instalación `npm ci` y compilación `npm run build`.
 El [preview de T00](https://app-gym-git-codex-t00-base-ci-coc12.vercel.app/)
 corresponde a `codex/t00-base-ci` y requiere acceso con la cuenta de Vercel autorizada.
-Su compilación terminó en estado `Ready`; ese estado no sustituye la prueba visual.
+Además del estado `Ready`, se comprobaron navegación, diseño adaptable, teclado y
+consola en el preview usando la conexión móvil, según el registro de entrega.
 No se desactivó la protección ni se crearon enlaces o secretos de bypass.
 
 Vercel etiquetó el primer despliegue como `Production` pese a solicitarlo desde

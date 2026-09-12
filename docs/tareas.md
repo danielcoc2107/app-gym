@@ -1,7 +1,8 @@
 # Backlog de implementación
 
-Estado: T00 implementada y validada localmente; publicación y comprobaciones remotas
-en curso. [Detalle de entrega](entregas/t00.md). T01–T18 no ejecutadas.
+Estado: T00 implementada, publicada y validada localmente y en preview; pendiente
+de conformidad del usuario y merge. [Detalle de entrega](entregas/t00.md).
+T01–T18 no ejecutadas.
 Este documento no crea tareas en Codex, issues, ramas, commits ni pull requests.
 
 ## Cómo usarlo
