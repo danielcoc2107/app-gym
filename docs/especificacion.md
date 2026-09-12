@@ -1,7 +1,7 @@
 # Especificación técnica: asistente de entrenamiento para gimnasio
 
-Versión: 1.1 propuesta · Fecha: 2026-09-06.
-Alcance de esta entrega: especificación; implementación en tareas separadas.
+Versión: 1.1 propuesta · Fecha: 2026-09-06 · Estado actualizado: 2026-09-07.
+Base T00 implementada y validada localmente; resto del producto pendiente.
 
 ## 1. Objetivo
 
@@ -184,6 +184,6 @@ Antes de integrar IA: acordar modelo, presupuesto y tratamiento de datos.
 Antes del lanzamiento público: revisar privacidad según los países de operación y
 validar recuperación/borrado de datos, permisos y pruebas en preview.
 
-El repositorio inicialmente solo tenía `AGENTS.md`. Esta entrega documental no
-incorpora código ejecutable ni acredita servicios, migraciones o despliegues.
-La implementación y sus comprobaciones se registrarán en entregas separadas.
+El repositorio inicialmente solo tenía `AGENTS.md`. Ahora dispone de la base T00,
+dependencias y pruebas locales verificadas; consultar la [entrega T00](entregas/t00.md).
+No hay servicios de Supabase, migraciones o despliegues remotos verificados.

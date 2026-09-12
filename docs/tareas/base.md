@@ -1,6 +1,8 @@
 # Etapa base: T00–T06
 
-Estado de esta entrega documental: fichas propuestas, sin implementación incluida.
+Estado: T00 validada localmente, en CI y en preview usando datos móviles;
+[pendiente de revisión del usuario y merge](../entregas/t00.md).
+T01–T06 pendientes, no ejecutadas.
 Aplicar el [contrato común de entrega](../tareas.md#contrato-común-de-entrega) en cada PR.
 Referencias: [arquitectura](../arquitectura.md), [datos](../modelo-datos.md)
 y [especificación](../especificacion.md).

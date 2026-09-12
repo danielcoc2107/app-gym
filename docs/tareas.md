@@ -1,7 +1,8 @@
 # Backlog de implementación
 
-Estado de esta entrega documental: fichas propuestas; no incorpora implementación.
-Cada tarea registrará sus resultados en su propio pull request.
+Estado: T00 implementada, publicada y validada localmente y en preview; pendiente
+de conformidad del usuario y merge. [Detalle de entrega](entregas/t00.md).
+T01–T18 no ejecutadas.
 Este documento no crea tareas en Codex, issues, ramas, commits ni pull requests.
 
 ## Cómo usarlo
